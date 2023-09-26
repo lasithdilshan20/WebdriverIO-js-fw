@@ -6,10 +6,11 @@ describe('Volvo Home Automation', () => {
         await HomePO.open();
         await HomePO.maximizeWindow();
         await HomePO.acceptCookies();
+        await HomePO.pause(2000);
     })
 
     it('Contact US', async () => {
-        await browser.pause(10000)
+
 
     })
 })

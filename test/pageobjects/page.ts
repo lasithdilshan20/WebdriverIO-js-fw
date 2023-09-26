@@ -8,4 +8,7 @@ export default class Page {
     acceptCookies () {
         return browser.$('#onetrust-accept-btn-handler').click()
     }
+    pause (time: number) {
+        return browser.pause(time)
+    }
 }
