@@ -1,4 +1,4 @@
-import Page from "./page";
+import Page from "./page.js";
 
 class HomePage extends Page {
     get acceptCookiesBtn () { return $('#onetrust-accept-btn-handler') }
